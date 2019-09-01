@@ -16,7 +16,7 @@ Image | Caption Provied | Generated Caption
   ## Captions generated for Images outside the datasets
   Image | Captions
   ---|---
-  ![][Images/test1.jpg]| people are watching hot air balloons in the street
-  ![][Images/test2.jpg]| a man in a yellow kayak is holding a paddle 
-  ![][Images/test3.jpg]| a crowd of people are gathered around a track
-  .![][Images/test4.jpg]| a man in a blue shirt is walking on the rocks by a lake 
+  <img src="Images/test1.jpg" width=250>| people are watching hot air balloons in the street
+  <img src="Images/test2.jpg" width=250>| a man in a yellow kayak is holding a paddle 
+  <img src="Images/test3.jpg" width=250>| a crowd of people are gathered around a track
+  <img src="Images/test4.jpg" width=250>| a man in a blue shirt is walking on the rocks by a lake 
