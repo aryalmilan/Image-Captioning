@@ -4,6 +4,15 @@ Generate Captions for images using Encoder, Decoder model.
 Using the datasets **Flickr8k** from University of Ilinois, neural network was trained to generate the captions for the images.
 The model is built on Keras with Tensorflow 2.0 beta.
 
+# How Image Captioning works ->
+The task of image captioning can be divided into two modules logically – one is an image based model – which extracts the features and nuances out of our image, and the other is a language based model – which translates the features and objects given by our image based model to a natural sentence.
+
+For our image based model (viz encoder) – we usually rely on a Convolutional Neural Network model. And for our language based model (viz decoder) – we rely on a Recurrent Neural Network. The image below summarizes the approach given above.
+
+Usually, a pretrained CNN extracts the features from our input image. The feature vector is linearly transformed to have the same dimension as the input dimension of the RNN/LSTM network. This network is trained as a language model on our feature vector.
+
+For training our LSTM model, we predefine our label and target text.
+
 ## Captions generated for the test set by the model
 Image | Caption Provied | Generated Caption 
 ---|---|---
